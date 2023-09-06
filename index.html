@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./src/style/style.css" />
+    <title>Frontend Mentor | Interactive rating component</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="container_child">
+        <!-- Rating state start -->
+        <div class="first_child">
+          <div class="icon_star">
+            <img src="./images/icon-star.svg" alt="" />
+          </div>
+
+          <h2>How did we do?</h2>
+
+          <p class="change_color_light_mode">
+            Please let us know how we did with your support request. All
+            feedback is appreciated to help us improve our offering!
+          </p>
+
+          <div class="rating">
+            <button class="rating_num rating_num_one">1</button>
+            <button class="rating_num rating_num_two">2</button>
+            <button class="rating_num rating_num_three">3</button>
+            <button class="rating_num rating_num_four">4</button>
+            <button class="rating_num rating_num_five">5</button>
+          </div>
+
+          <button class="submit">SUBMIT</button>
+        </div>
+
+        <!-- Rating state end -->
+
+        <!-- Thank you state start -->
+        <div class="second_child">
+          <div class="illustration_thank_you">
+            <img src="./images/illustration-thank-you.svg" alt="" />
+          </div>
+
+          <div class="display_rating">You selected <span></span> out of 5</div>
+
+          <h2>Thank you!</h2>
+
+          <p>
+            We appreciate you taking the time to give a rating. If you ever need
+            more support, don’t hesitate to get in touch!
+          </p>
+        </div>
+
+        <!-- Thank you state end -->
+      </div>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Your Name Here</a>.
+      </div>
+    </div>
+  </body>
+  <script src="/dist/bundle.js"></script>
+</html>
